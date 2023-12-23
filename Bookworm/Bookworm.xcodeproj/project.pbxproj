@@ -14,6 +14,7 @@
 		955AE9402B36A497008E055D /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE93F2B36A497008E055D /* PushButtonView.swift */; };
 		955AE9422B370DB0008E055D /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE9412B370DB0008E055D /* TextEditorView.swift */; };
 		955AE9442B37248D008E055D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE9432B37248D008E055D /* Student.swift */; };
+		955AE9462B37272D008E055D /* StudentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE9452B37272D008E055D /* StudentsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		955AE93F2B36A497008E055D /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		955AE9412B370DB0008E055D /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		955AE9432B37248D008E055D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		955AE9452B37272D008E055D /* StudentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				955AE93F2B36A497008E055D /* PushButtonView.swift */,
 				955AE9412B370DB0008E055D /* TextEditorView.swift */,
+				955AE9452B37272D008E055D /* StudentsView.swift */,
 				955AE9432B37248D008E055D /* Student.swift */,
 			);
 			path = Helpers;
@@ -156,6 +159,7 @@
 			files = (
 				955AE9332B36A2C0008E055D /* ContentView.swift in Sources */,
 				955AE9402B36A497008E055D /* PushButtonView.swift in Sources */,
+				955AE9462B37272D008E055D /* StudentsView.swift in Sources */,
 				955AE9422B370DB0008E055D /* TextEditorView.swift in Sources */,
 				955AE9442B37248D008E055D /* Student.swift in Sources */,
 				955AE9312B36A2C0008E055D /* BookwormApp.swift in Sources */,
