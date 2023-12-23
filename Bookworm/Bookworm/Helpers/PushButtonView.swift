@@ -9,9 +9,9 @@ import SwiftUI
 
 struct PushButton: View {
     let title: String
-    @State var isOn: Bool
+    @Binding var isOn: Bool
     
-    var onColors = [Color.red, Color.yellow]
+    var onColors = [Color.red, Color.red.opacity(0.6)]
     var offColors = [Color(white: 0.6), Color(white: 0.4)]
     
     var body: some View {
@@ -29,7 +29,7 @@ struct PushButtonView: View {
     @State private var rememberMe = false
     
     var body: some View {
-        PushButton(title: "Remember me", isOn: rememberMe)
+        PushButton(title: "Remember me", isOn: $rememberMe)
         Text(rememberMe ? "On" : "Off")
     }
 }
