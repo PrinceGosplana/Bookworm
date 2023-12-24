@@ -15,5 +15,6 @@ struct BookwormApp: App {
             StudentsView()
         }
         .modelContainer(for: Student.self)
+        .modelContainer(for: Book.self)
     }
 }
