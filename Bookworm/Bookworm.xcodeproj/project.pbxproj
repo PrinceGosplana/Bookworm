@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953ACB942B3835200004AA6B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953ACB932B3835200004AA6B /* RatingView.swift */; };
 		955AE9312B36A2C0008E055D /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE9302B36A2C0008E055D /* BookwormApp.swift */; };
 		955AE9332B36A2C0008E055D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AE9322B36A2C0008E055D /* ContentView.swift */; };
 		955AE9352B36A2C2008E055D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955AE9342B36A2C2008E055D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		953ACB932B3835200004AA6B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		955AE92D2B36A2C0008E055D /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955AE9302B36A2C0008E055D /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		955AE9322B36A2C0008E055D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				955AE93E2B36A482008E055D /* Helpers */,
 				955AE9302B36A2C0008E055D /* BookwormApp.swift */,
 				955AE9492B381626008E055D /* AddBookView.swift */,
+				953ACB932B3835200004AA6B /* RatingView.swift */,
 				955AE9322B36A2C0008E055D /* ContentView.swift */,
 				955AE9342B36A2C2008E055D /* Assets.xcassets */,
 				955AE9362B36A2C2008E055D /* Preview Content */,
@@ -166,6 +169,7 @@
 				955AE9332B36A2C0008E055D /* ContentView.swift in Sources */,
 				955AE9402B36A497008E055D /* PushButtonView.swift in Sources */,
 				955AE9482B38147D008E055D /* Book.swift in Sources */,
+				953ACB942B3835200004AA6B /* RatingView.swift in Sources */,
 				955AE94A2B381626008E055D /* AddBookView.swift in Sources */,
 				955AE9462B37272D008E055D /* StudentsView.swift in Sources */,
 				955AE9422B370DB0008E055D /* TextEditorView.swift in Sources */,
