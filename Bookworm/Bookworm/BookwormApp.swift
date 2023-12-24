@@ -12,9 +12,9 @@ import SwiftData
 struct BookwormApp: App {
     var body: some Scene {
         WindowGroup {
-            AddBookView()
+            ContentView()
         }
-        .modelContainer(for: Student.self)
+//        .modelContainer(for: Student.self)
         .modelContainer(for: Book.self)
     }
 }
