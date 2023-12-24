@@ -41,8 +41,19 @@ struct AddBookView: View {
                         }
                     }
                 }
+                
+                Section {
+                    Button("Save") {
+                        modelContext.insert(Book(title: title,
+                                                 author: author,
+                                                 genre: genre,
+                                                 review: review,
+                                                 rating: rating))
+                    }
+                }
             }
         }
+        .navigationTitle("Add book")
     }
 }
 
