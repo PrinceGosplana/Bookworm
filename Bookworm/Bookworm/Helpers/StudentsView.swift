@@ -12,7 +12,12 @@ struct StudentsView: View {
     @Query var students: [Student]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(students) { student in
+                Text(student.name)
+            }
+            .navigationTitle("Classroom")
+        }
     }
 }
 
