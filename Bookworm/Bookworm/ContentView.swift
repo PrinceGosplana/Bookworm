@@ -42,6 +42,9 @@ struct ContentView: View {
                 DetailView(book: book)
             }
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    EditButton()
+                }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Add book", systemImage: "plus") {
                         showingAddScreen.toggle()
