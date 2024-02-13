@@ -33,6 +33,7 @@ struct RatingView: View {
                         .foregroundStyle(number > rating ? offColor : onColor)
                 }
                 .accessibilityLabel("\(number == 1 ? "1 star" : "\(number) stars")")
+                .accessibilityAddTraits(number > rating ? [] : [.isSelected])
             }
         }
         .buttonStyle(.plain)
