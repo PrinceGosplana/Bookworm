@@ -37,6 +37,7 @@ struct RatingView: View {
         .buttonStyle(.plain)
         .accessibilityElement()
         .accessibilityLabel(label)
+        .accessibilityValue(rating == 1 ? "1 star" : "\(rating) stars")
     }
     
     private func image(for number: Int) -> Image {
